@@ -53,5 +53,8 @@ TagManager:
   - name: characters
     uniqueID: 770831221
     locked: 0
+  - name: onForniture
+    uniqueID: 4140597105
+    locked: 0
   m_RenderingLayers:
   - Default
