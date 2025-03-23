@@ -3,7 +3,6 @@ using UnityEngine;
 public class PlayerMovement : MonoBehaviour
 {
  public Rigidbody2D rb;
-    public Animator anim;
     public int facingDirection = 1;
     public int speed = 5;
 
@@ -28,8 +27,8 @@ public class PlayerMovement : MonoBehaviour
         }
         rb.linearVelocity = new Vector2(horizontal, vertical) * speed;
 
-        anim.SetFloat("horizontal", Mathf.Abs(horizontal));
-        anim.SetFloat("vertical", Mathf.Abs(vertical));
+       // anim.SetFloat("horizontal", Mathf.Abs(horizontal));
+        //anim.SetFloat("vertical", Mathf.Abs(vertical));
     }
 
        void flip()
