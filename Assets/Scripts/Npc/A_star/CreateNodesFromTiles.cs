@@ -1,5 +1,6 @@
 using System.Collections.Generic;
 using NUnit.Framework;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.Tilemaps;
 
@@ -20,10 +21,9 @@ public class CreateNodesFromTiles : MonoBehaviour
     public int gridBoundX = 0, gridBoundY = 0;
     void Awake()
     {
-     unsortedNodes = new List<GameObject>();   
+     unsortedNodes = new List<GameObject>();  
+     GenerateNodes(); 
     }
-
-
     public void GenerateNodes()
     {
         CreateNodes();
@@ -78,10 +78,15 @@ public class CreateNodesFromTiles : MonoBehaviour
                         //
                         // more code here see video min 11
                         //
+                        Node nodeScript = node.GetComponent<Node>();
+                        nodeScript.gridX = gridX;
+                        nodeScript.gridY = gridY;
+                        nodeScript.walkable = true;
+
                         foundTileOnLastPass = true;
                         unsortedNodes.Add(node);
 
-                        node.name = "NODE" + gridX.ToString() + " : " + gridY.ToString();
+                        node.name = "NODE " + gridX.ToString() + ":" + gridY.ToString();
                     }
                     else
                     {
@@ -89,11 +94,18 @@ public class CreateNodesFromTiles : MonoBehaviour
                         Vector3 coordinates = new Vector3(x + 0.5f + gridbase.transform.position.x, y + 0.5f + gridbase.transform.position.y, 0 );
                         // the gridbase component makes sure we create our nodes in the right place
                         GameObject node = (GameObject) Instantiate(nodePrefab, coordinates, Quaternion.Euler(0, 0, 0));
-                        // set color to red
-                        node.GetComponent<SpriteRenderer>().color = Color.red;
+                        // set color to red, this doesn't work yet:
+                        node.GetComponent<Node>().walkable = false;
+                        
                         //
-                        // more code here see video min 11
                         //
+                        //
+
+                        Node nodeScript = node.GetComponent<Node>();
+                        nodeScript.gridX = gridX;
+                        nodeScript.gridY = gridY;
+                        nodeScript.walkable = false;
+
                         foundTileOnLastPass = true;
                         unsortedNodes.Add(node);
 
@@ -126,7 +138,9 @@ public class CreateNodesFromTiles : MonoBehaviour
         nodes = new GameObject[gridBoundX + 1, gridBoundY + 1];
         foreach (GameObject g in unsortedNodes)
         {
-         // wt code, see min 15   
+         // wt code, see min 15  
+         Node nodeScript = g.GetComponent<Node>();
+         nodes[nodeScript.gridX, nodeScript.gridY] = g; 
         }
 
 
