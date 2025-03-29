@@ -55,7 +55,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -69,7 +69,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 30
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -93,7 +93,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -134,10 +134,10 @@ TextureImporter:
       name: myplayer3-downanimationSheet_0
       rect:
         serializedVersion: 2
-        x: 15
-        y: 4
-        width: 33
-        height: 45
+        x: 16
+        y: 5
+        width: 31
+        height: 43
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -156,10 +156,10 @@ TextureImporter:
       name: myplayer3-downanimationSheet_1
       rect:
         serializedVersion: 2
-        x: 81
-        y: 4
-        width: 30
-        height: 45
+        x: 82
+        y: 5
+        width: 28
+        height: 43
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -178,10 +178,10 @@ TextureImporter:
       name: myplayer3-downanimationSheet_2
       rect:
         serializedVersion: 2
-        x: 145
-        y: 3
-        width: 30
-        height: 46
+        x: 146
+        y: 4
+        width: 28
+        height: 44
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -200,10 +200,10 @@ TextureImporter:
       name: myplayer3-downanimationSheet_3
       rect:
         serializedVersion: 2
-        x: 209
-        y: 4
-        width: 31
-        height: 45
+        x: 210
+        y: 5
+        width: 29
+        height: 43
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -222,10 +222,10 @@ TextureImporter:
       name: myplayer3-downanimationSheet_4
       rect:
         serializedVersion: 2
-        x: 276
-        y: 4
-        width: 30
-        height: 45
+        x: 277
+        y: 5
+        width: 28
+        height: 43
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -244,10 +244,10 @@ TextureImporter:
       name: myplayer3-downanimationSheet_5
       rect:
         serializedVersion: 2
-        x: 337
-        y: 3
-        width: 30
-        height: 46
+        x: 338
+        y: 4
+        width: 28
+        height: 44
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -266,10 +266,10 @@ TextureImporter:
       name: myplayer3-downanimationSheet_6
       rect:
         serializedVersion: 2
-        x: 402
-        y: 6
-        width: 31
-        height: 45
+        x: 403
+        y: 7
+        width: 29
+        height: 43
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -288,7 +288,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 89a39dd98a775f447ba84c540a566386
     internalID: 0
     vertices: []
     indices: 
@@ -297,7 +297,14 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      myplayer3-downanimationSheet_0: 2788359625355003267
+      myplayer3-downanimationSheet_1: -1687640383269306260
+      myplayer3-downanimationSheet_2: -583828595889205686
+      myplayer3-downanimationSheet_3: -3876422523895461633
+      myplayer3-downanimationSheet_4: -8357729013559459150
+      myplayer3-downanimationSheet_5: -424956436797101451
+      myplayer3-downanimationSheet_6: -6084720477242984132
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
