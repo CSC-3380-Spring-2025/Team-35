@@ -18,7 +18,6 @@ public class NpcMovement : MonoBehaviour
 
 
     public void RunDown() {
-        Debug.Log("Executing RunDown Function Right now");
         rb = gameObject.GetComponent<Rigidbody2D>(); // get rigid body of game object with this script at the start
        anim = gameObject.GetComponent<Animator>();
 
@@ -30,7 +29,6 @@ public class NpcMovement : MonoBehaviour
 
 
     public void RunUp() {
-        Debug.Log("Executing RunUp Function Right now");
         rb = gameObject.GetComponent<Rigidbody2D>(); // get rigid body of game object with this script at the start
         anim = gameObject.GetComponent<Animator>();
 
