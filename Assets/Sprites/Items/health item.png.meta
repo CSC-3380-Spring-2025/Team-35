@@ -1,10 +1,22 @@
 fileFormatVersion: 2
-guid: b03150f57acf8a645b265d254f7ab72c
+guid: 0ef72bd25e61cf040a3065becc86acff
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 8895156438962815069
-    second: myplayer3back_0
+      213: -7462877119668602866
+    second: health item_0
+  - first:
+      213: 7303813479034169070
+    second: health item_1
+  - first:
+      213: -2320825222960238434
+    second: health item_2
+  - first:
+      213: -5373050763501351156
+    second: health item_3
+  - first:
+      213: 4524684012012915784
+    second: health item_4
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +125,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: myplayer3back_0
+      name: health item_0
       rect:
         serializedVersion: 2
-        x: 15
-        y: 4
-        width: 33
-        height: 45
+        x: 7
+        y: 0
+        width: 18
+        height: 28
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +140,96 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d5048e517a1f17b70800000000000000
-      internalID: 8895156438962815069
+      spriteID: e0833c7bcc88e6890800000000000000
+      internalID: -7462877119668602866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: health item_1
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 0
+        width: 20
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee6aa8379ab5c5560800000000000000
+      internalID: 7303813479034169070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: health item_2
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 0
+        width: 22
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9030b781c5cacfd0800000000000000
+      internalID: -2320825222960238434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: health item_3
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 0
+        width: 20
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0f4c595cc61f65b0800000000000000
+      internalID: -5373050763501351156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: health item_4
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 0
+        width: 18
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84c4be8d228eace30800000000000000
+      internalID: 4524684012012915784
       vertices: []
       indices: 
       edges: []
@@ -147,8 +247,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      myplayer3back_0: 8895156438962815069
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
