@@ -44,17 +44,23 @@ TagManager:
   - name: ground
     uniqueID: 3655934755
     locked: 0
-  - name: interiors
-    uniqueID: 2479354959
+  - name: underForniture
+    uniqueID: 3051561533
     locked: 0
   - name: walls
     uniqueID: 817096507
+    locked: 0
+  - name: interiors
+    uniqueID: 2479354959
     locked: 0
   - name: characters
     uniqueID: 770831221
     locked: 0
   - name: onForniture
     uniqueID: 4140597105
+    locked: 0
+  - name: ceiling
+    uniqueID: 181077021
     locked: 0
   m_RenderingLayers:
   - Default
